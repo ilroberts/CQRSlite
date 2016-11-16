@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -9,7 +8,6 @@ using CQRSlite.Events;
 using CQRSlite.Domain;
 using CQRSCode.WriteModel;
 using CQRSlite.Cache;
-using Microsoft.Extensions.Caching.Memory;
 using CQRSCode.ReadModel;
 using CQRSlite.Config;
 using CQRSCode.WriteModel.Handlers;
